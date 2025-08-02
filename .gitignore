@@ -1,3 +1,5 @@
 .venv
 uv.lock 
 logs/
+dbt_spark_connect_example/profiles/profiles.yml
+dbt_spark_connect_example/profiles/.user.yml

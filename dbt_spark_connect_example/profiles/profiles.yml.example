@@ -1,0 +1,10 @@
+dbt_spark_connect_example:
+  target: dev
+  outputs:
+    dev:
+      type: databricks
+      host: <your-databricks-workspace-url>
+      http_path: <your-databricks-sql-warehouse-http-path>
+      auth_type: oauth
+      schema: default
+      catalog: workspace

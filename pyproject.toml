@@ -8,7 +8,8 @@ authors = [
 requires-python = ">=3.10"
 dependencies = [
     "databricks-connect>=14.3.1",
-    "dbt-databricks"
+    "dbt-spark",
+    "PyHive"
 ]
 
 [project.optional-dependencies]
